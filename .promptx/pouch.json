@@ -1,0 +1,298 @@
+{
+  "currentState": "initial",
+  "stateHistory": [
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2025-12-31T06:33:24.181Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2025-12-31T06:33:27.534Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "recall",
+      "timestamp": "2025-12-31T06:40:39.007Z",
+      "args": [
+        {
+          "role": "colin",
+          "query": null
+        }
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2025-12-31T06:40:42.509Z",
+      "args": [
+        "assistant"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "remember",
+      "timestamp": "2025-12-31T09:37:53.976Z",
+      "args": [
+        {
+          "role": "colin",
+          "engrams": [
+            {
+              "content": "子域划分的核心原则是独立演化，不是技术实现的相似性。即使两个功能技术实现几乎一样，如果业务演化方向不同，就应该拆成两个子域。例如工具子域和成果案例展示子域，虽然都是单页应用配置即用，但工具子域未来可能需要统计使用次数、分析使用模式，成果案例子域未来可能需要分享功能、分类管理，演化方向不同应拆开。",
+              "schema": "DDD 子域划分 独立演化 业务演化方向",
+              "strength": 0.9,
+              "type": "PATTERN"
+            },
+            {
+              "content": "存储不是子域，是各个子域的一部分，不是独立的子域。每个子域有自己的存储需求，存储是技术实现层面的概念。",
+              "schema": "DDD 子域 存储 技术实现",
+              "strength": 0.8,
+              "type": "ATOMIC"
+            },
+            {
+              "content": "UI不是子域，是系统门面，组织各个子域，完成系统的最终展现。UI可以理解为支撑域，也可以说不是域，它是系统的展现层。就像电商系统有SKU、订单、支付这些子域，但展示订单的页面也会显示支付信息和操作，UI是组织这些子域的门面。",
+              "schema": "DDD 子域 UI 系统门面 展现层",
+              "strength": 0.8,
+              "type": "ATOMIC"
+            },
+            {
+              "content": "子域划分的粒度：业务还小时，可能整个系统就是一个子域，不需要过度拆分。业务复杂时，根据业务演化方向独立拆分，而不是根据技术实现相似性。关键判断是这个功能未来会如何演化，演化方向是否独立。",
+              "schema": "DDD 子域划分 粒度 业务演化",
+              "strength": 0.8,
+              "type": "PATTERN"
+            },
+            {
+              "content": "战略设计的重要性：在业务、设计认知上，对这些思考清楚的情况下，是不怕后面业务需求的变化的。子域划分是战略设计，需要在业务理解层面思考清楚，而不是在技术实现层面纠结。",
+              "schema": "DDD 战略设计 业务理解 业务需求变化",
+              "strength": 0.9,
+              "type": "PATTERN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-01T02:28:21.611Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-01T03:54:21.034Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-02T01:31:21.132Z",
+      "args": [
+        "nuwa"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-02T01:32:04.019Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2026-01-02T01:47:54.988Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-02T01:47:57.840Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2026-01-02T01:51:02.440Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-02T01:52:01.752Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-02T04:53:58.819Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-02T07:27:58.667Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-02T13:22:55.681Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-03T07:10:48.926Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2026-01-03T07:13:37.741Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-03T09:11:48.101Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-03T09:21:08.379Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-03T10:15:25.422Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2026-01-04T01:45:23.446Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-04T01:45:29.780Z",
+      "args": [
+        "sean"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-04T01:45:32.180Z",
+      "args": [
+        "teacheryo"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-04T01:45:35.836Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-04T01:50:11.574Z",
+      "args": [
+        "sean"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-04T01:50:14.910Z",
+      "args": [
+        "teacheryo"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-04T01:50:18.904Z",
+      "args": [
+        "colin"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "project",
+      "timestamp": "2026-01-04T06:01:06.240Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/zhangcolin/workspace/AI_Literacy_Course",
+          "ideType": "cursor"
+        }
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "discover",
+      "timestamp": "2026-01-04T06:01:11.935Z",
+      "args": []
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-04T06:01:21.901Z",
+      "args": [
+        "sean"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-04T06:01:27.253Z",
+      "args": [
+        "teacheryo"
+      ]
+    },
+    {
+      "from": "initial",
+      "command": "action",
+      "timestamp": "2026-01-04T06:01:32.923Z",
+      "args": [
+        "colin"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-01-04T06:01:32.947Z"
+}
